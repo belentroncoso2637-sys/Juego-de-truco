@@ -940,7 +940,7 @@ public class Truco {
             if (n1.isEmpty()) n1 = "Jugador 1";
             // El jugador 1 siempre es una persona.
             a = new Humano(n1);
-            // El jugador 2 es otra persona (1 vs 1) o el bot.
+            // El jugador 2 es otra personfghya (1 vs 1) o el bot.
             if (hotseat) {
                 System.out.print("Nombre del jugador 2: ");
                 String n2 = IN.nextLine().trim();
